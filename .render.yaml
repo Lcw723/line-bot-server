@@ -2,6 +2,6 @@ services:
   - type: web
     name: line-bot-server
     env: node
-    plan: free
-    buildCommand: "yarn install"
-    startCommand: "yarn start"
+    buildCommand: yarn
+    startCommand: yarn start
+    rootDir: ./line-bot-server  
