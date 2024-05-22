@@ -3,5 +3,5 @@ services:
     name: line-bot-server
     env: node
     plan: free
-    buildCommand: "npm install"
-    startCommand: "node index.js"
+    buildCommand: "yarn install"
+    startCommand: "yarn start"
